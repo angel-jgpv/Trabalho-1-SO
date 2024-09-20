@@ -13,11 +13,11 @@
 
 #3
    cat mensagem1.txt mensagem2.txt mensagem3.txt > mensagens.txt
-   cat mensagens.txt
+   tail mensagens.txt
 
 #4
    cp mensagens.txt mensagens_antiga.txt
-   fortune >> mensagens_antiga.txt
+   fortune >> mensagens.txt
 
 #5.
    wc mensagens.txt | awk '{print $1}' > linhas.txt
