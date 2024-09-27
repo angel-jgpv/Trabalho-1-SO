@@ -1,3 +1,5 @@
+
+#!bin/bash
 #1.
 
  sudo apt install fortune
