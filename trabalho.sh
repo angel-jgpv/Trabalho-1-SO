@@ -1,7 +1,7 @@
 #!/bin/bash
 #1.
 
- sudo apt install fortune
+ sudo apt install fortune -y
 
 #2.
    fortune > mensagem1.txt
